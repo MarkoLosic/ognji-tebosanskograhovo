@@ -85,13 +85,13 @@ body {
   margin-bottom: 3.2rem;
 }
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 .subheading {
   display: block;
-  font-size: 1.6rem;
+  font-size: 3.6rem;
   font-weight: 500;
   color: #cf711f;
   text-transform: uppercase;
@@ -148,6 +148,8 @@ body {
   /* Zato što hoćemo da bude kasnije sticky later */
   height: 9.8rem;
   padding: 0 4.8rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 .logo {
   height: 11.2rem;
@@ -385,4 +387,31 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+/*Fotografije za slideshow*/
+#slideshowImg {
+  height: 750px;
+  object-fit: cover;
+  padding-top: 1rem;
+  background-color: #fae5d3;
+}
+.carousel-caption {
+  color: #000;
+  top: 80%;
+  bottom: auto;
+}
+.w-100 {
+  width: 100% !important;
+}
+.d-block {
+  display: block !important;
+}
+img {
+  vertical-align: middle;
+  border-style: inset;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }

@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  font-family: "Rubic", sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -441,7 +441,7 @@ svg {
   color: #555;
 }
 /*Fotografije za slideshow*/
-#slideshowImg {
+.slideshow-img {
   height: 750px;
   object-fit: cover;
   padding-top: 1rem;
